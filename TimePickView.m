@@ -13,6 +13,7 @@
 @property(nonatomic,strong)UIView *panV;
 @property(nonatomic,assign)int selectedIndex;
 
+
 @property(nonatomic,assign)CGFloat allAngle;
 @property(nonatomic,strong)CAShapeLayer *shapelayer;
 @property(nonatomic,strong)UIImageView *panImageV;
