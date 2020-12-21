@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TimePickView : UIView
+
+/// 时间选择器
+/// @param frame
+/// @param currentHHMM    小时:分钟  默认是@“00:00”
+/// @param block <#block description#>
 -(instancetype)initWithFrame:(CGRect)frame CurentTime:(NSString *)currentHHMM ComfirmBlock:(void(^)(BOOL isComfirm,NSString *timeStr ))block;
 @end
 
